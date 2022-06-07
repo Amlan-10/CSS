@@ -1,0 +1,58 @@
+.red
+{
+/* background-color: rgb(7, 7, 7); */
+background-color: black;
+color: rgb(20, 175, 222);
+/* height: 120px; */
+
+}
+.green{
+    /* border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem rgb(4, 34, 46);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem; */
+    font-family: Italic;
+    border: 2px rgb(37, 2, 31) solid;
+    background-image: url("ppic.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: rgb(6, 67, 47); */
+   background-color: rgb(104, 104, 143);
+    color: rgb(3, 3, 3);
+    height: 120px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: blueviolet;
+    color: yellow;
+    line-height: 100%;
+}
+body{
+   
+    
+    /* background-size: 300px 300px; */
+    background: transparent;
+    /* -moz-image-rect: (url("ppic.jpg"),0% ,10% ,10% ,10%);
+    width:10px;
+    height:10px;
+    position:absolute;
+     */
+}
+/* div {
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+  }
+   */

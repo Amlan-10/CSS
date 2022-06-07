@@ -1,0 +1,20 @@
+.right{
+    background-color: gray;
+}
+h2{
+    color: rgb(19, 19, 112);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.left{
+    display: none;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(175, 171, 171);
+}

@@ -1,0 +1,23 @@
+header{
+    background: #b2b2b2;
+   }
+   h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+   }
+   nav a{
+    background-color: #c5c5c5;
+   }
+   section{
+    background: #7f7f7f;
+   }
+   h2{
+    color: rgb(0, 0, 255);
+   }
+   h1,h2{
+    text-transform: uppercase;
+   }
+   img{
+    display: none;
+   }
