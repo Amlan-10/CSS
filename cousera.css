@@ -4,17 +4,22 @@ h1{
     /* background-color: rgb(93, 185, 231); */
 }
 h2{
-    background-color: palegreen;
-    color: black;
+    background-image:linear-gradient(green,rgb(164, 220, 91));
+    color: rgb(15, 14, 14);
+    /* margin:10px; */
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
 }
 .Achievements{
     color: rgb(24, 13, 228);
+    padding-top: 10px;
     /* display: inline-block;
     width: 30%; */
   
 }
 footer{
-    background-color: lightsteelblue;
+    background-image:-moz-linear-gradient(red,yellow);
    clear: both;
 }
 ul{
@@ -23,19 +28,25 @@ ul{
     /* width: 30%;
     float: left; */
 }
-/* *{
+*{
 margin: 0;padding: 0;
-} */
+}
 /* nav{ */
     /* display: inline-block;
 } */
 .red{
     display: inline-block;
+    margin-top: 50px;
 
 }
 .bob{
 text-align: center;
-background-color: aqua;
+background-image:linear-gradient(aqua,white);
+}
+.bob a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 120%;
 }
 section{
     width: 30%;
@@ -50,3 +61,7 @@ section{
 details{
     background-color: bisque;
 }
+a:hover{
+    background: blue;
+    color: white;
+    }
