@@ -1,0 +1,78 @@
+body{  /*The body should have padding and margin*/
+
+    margin: 5%;
+    padding: 5%;
+}
+
+
+header{ /*The header should have a background color, background image (using a local image), and padding*/
+ background-color: #d3d3d3;
+ background-image: url("images/flywheel.jpg");
+}
+
+
+h1{
+ color: #0f0abc;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+nav a { /*new display, margin, border-radius, text-decoration, and padding*/
+     background-color: #ffffff;
+     display:inline-block;
+     width: 10%;
+     margin:20px 20px 20px 90px;
+     padding: 10px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 2px;
+ 
+}
+
+h2{
+ color: #000abc;
+ text-transform: uppercase;
+}
+
+section{
+ background-color: #2f4f4f;
+ display: inline;
+
+}
+
+.active  {  /*link to the current page should be styled differently from the other links*/
+                a:active;
+                color: #ffffff;
+                background-color: #000000;
+
+}
+
+.right{    
+       width: 70%;
+       display:inline-block;
+       background: #ffffff;
+       margin-left: 10px;
+}
+
+
+
+
+aside{
+     width: 20%;
+     height: 500px;
+     display:block;
+     background: #666666;
+}
+
+.left {
+      float: left;
+
+}
+img{ /*they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images.*/
+ width: 100px;
+ display:block;
+ margin:0 auto;
+ margin-top: 30px;
+ margin-bottom: 5px;
+ border: 2px solid #000000;
+}
