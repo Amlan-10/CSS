@@ -73,18 +73,19 @@ nav a{
 }
 table{
     display: flex;
-    background-color: rgb(123, 123, 224);
+    background-color: rgb(238, 230, 85);
     width: fit-content;
     border: 5px solid black;
-    border-radius: 20px;
-    
+    border-radius: 10px;
+    font-weight: bold;
 }
 th{
-    background:-moz-linear-gradient(aqua,rgb(111, 14, 202));
+    background:-moz-linear-gradient(aqua,rgb(207, 226, 31));
     line-height: 50px;
     color: rgb(12, 12, 12);
     text-transform: uppercase;
     /* border-radius: 20px; */
+    text-align: center;
 }
 tr{
     line-height: 50px;   
@@ -93,6 +94,10 @@ table,th,td{
     border: 2px solid;
     /* border-collapse: collapse; */
 }
-tr:hover{
-    background-color: aqua;
+td:hover{
+    /* background-color: aqua; */
+    opacity: 0.8;
+}
+th:first-child{
+    text-align: left;
 }
