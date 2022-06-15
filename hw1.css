@@ -14,7 +14,6 @@ h2{
     font-weight: bold;
 }
 .left a img{
-    /* display: none; */
     width: 140px;
     height: 100px;
     border: 2px solid black;
@@ -52,23 +51,48 @@ header a{
 a:hover{
     color: rgb(10, 9, 9);
     background: white;
+    border-radius: 0;
 }
-a:focus{
-    background:white;
-    opacity: 0.6;
+
+a:active{
+    background: rgb(222, 235, 109);
     position: absolute;
 }
 nav a{
   background-color: #8e8484; 
   border: 2px solid black;
+  border-radius: 20px;
   color: rgb(8, 8, 8);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
   margin: 20px;
   text-align: center;
   font-size: 180%;
-  float: center;
+}
+table{
+    display: flex;
+    background-color: rgb(123, 123, 224);
+    width: fit-content;
+    border: 5px solid black;
+    border-radius: 20px;
+    
+}
+th{
+    background:-moz-linear-gradient(aqua,rgb(111, 14, 202));
+    line-height: 50px;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    /* border-radius: 20px; */
+}
+tr{
+    line-height: 50px;   
+}
+table,th,td{
+    border: 2px solid;
+    /* border-collapse: collapse; */
+}
+tr:hover{
+    background-color: aqua;
 }
