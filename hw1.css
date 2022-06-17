@@ -70,7 +70,7 @@ nav a{
   margin: 20px;
   text-align: center;
   font-size: 180%;
-}
+} 
 table{
     display: flex;
     background-color: rgb(238, 230, 85);
@@ -100,4 +100,18 @@ td:hover{
 }
 th:first-child{
     text-align: left;
+}
+/* Justify content is a very important and useful property of css */
+p{
+    background-color: rgb(204, 199, 231);
+}
+@media screen and (max-width:800px) {
+    p{
+    background-color:olive;
+}
+}
+@media screen and (max-width:600px) {
+    p{
+    background-color:yellow;
+}
 }
